@@ -1,0 +1,187 @@
+/*
+div {
+    outline: 2px dotted yellow;
+}
+*/
+#game_background {
+    background-image: url(pics/Artboard%2060%20copy.svg);
+    width: 80vw;
+    height: 45vw;
+    margin: auto;
+    position: relative;
+    background-size: 100%;
+}
+
+#shark1 {
+    background-image: url(pics/Artboard%2034.svg);
+    background-size: 100%;
+    width: 11vw;
+    height: 3.2vw;
+    position: absolute;
+    z-index: 10;
+    left: 15vw;
+    top: 16vw;
+}
+
+#shark2 {
+    background-image: url(pics/Artboard%2035.svg);
+    background-size: 100%;
+    width: 17vw;
+    height: 5vw;
+    position: absolute;
+    z-index: 10;
+    left: 15vw;
+    top: 24.5vw;
+}
+
+#shark3 {
+    background-image: url(pics/Artboard%2036.svg);
+    background-size: 100%;
+    width: 24vw;
+    height: 7vw;
+    position: absolute;
+    z-index: 10;
+    left: 15vw;
+    top: 36vw;
+}
+
+#back {
+    background-image: url(pics/Artboard%2041.svg);
+    background-size: 100%;
+    width: 9vw;
+    height: 9vw;
+    position: absolute;
+    z-index: 10;
+    left: 11vw;
+    top: 3vw;
+}
+
+#settings_button {
+    background-image: url(pics/Artboard%2016.svg);
+    background-size: 100%;
+    width: 9vw;
+    height: 9vw;
+    position: absolute;
+    z-index: 10;
+    left: 21vw;
+    top: 3vw;
+}
+
+#pause {
+    background-image: url(pics/Artboard%2016%20copy%209.svg);
+    background-size: 100%;
+    width: 9vw;
+    height: 9vw;
+    position: absolute;
+    z-index: 10;
+    left: 31vw;
+    top: 3vw;
+}
+
+#time {
+    background-image: url(pics/Artboard%2058.svg);
+    background-size: 100%;
+    width: 9vw;
+    height: 9vw;
+    position: absolute;
+    z-index: 10;
+    left: 51vw;
+    top: 3vw;
+}
+
+#score_number {
+    background-image: url(pics/Artboard%2072.svg);
+    background-size: 140%;
+    width: 11vw;
+    height: 9vw;
+    position: absolute;
+    z-index: 10;
+    left: 78vw;
+    top: .5vw;
+}
+
+#heart1 {
+    background-image: url(pics/Artboard%2016%20copy%207.svg);
+    background-size: 100%;
+    width: 3vw;
+    height: 2.4vw;
+    position: absolute;
+    z-index: 10;
+    left: 61vw;
+    top: 3vw;
+}
+
+#heart2 {
+    background-image: url(pics/Artboard%2016%20copy%207.svg);
+    background-size: 100%;
+    width: 3vw;
+    height: 2.4vw;
+    position: absolute;
+    z-index: 10;
+    left: 64.5vw;
+    top: 3vw;
+}
+
+#heart3 {
+    background-image: url(pics/Artboard%2016%20copy%207.svg);
+    background-size: 100%;
+    width: 3vw;
+    height: 2.4vw;
+    position: absolute;
+    z-index: 10;
+    left: 68vw;
+    top: 3vw;
+}
+
+#start {
+    background-image: url(pics/Artboard%201%20copy.svg);
+    width: 80vw;
+    height: 45vw;
+    margin: auto;
+    position: relative;
+    background-size: 100%;
+    display:none;
+}
+
+#start {
+    background-image: url(pics/Artboard%201%20copy.svg);
+    width: 80vw;
+    height: 45vw;
+    margin: auto;
+    position: relative;
+    background-size: 100%;
+    display: none;
+}
+
+#settings {
+    background-image: url(pics/Artboard%2037.svg);
+    width: 50vw;
+    height: 26.9vw;
+    margin: auto;
+    position: relative;
+    background-size: 100%;
+    display: none;
+}
+
+#gameover {
+    background-image: url(pics/Artboard%2037%20copy%202.svg);
+    width: 50vw;
+    height: 26.9vw;
+    margin: auto;
+    position: relative;
+    background-size: 100%;
+    display: none;
+}
+
+#levelcomplete {
+    background-image: url(pics/Artboard%2068.svg);
+    width: 50vw;
+    height: 26.9vw;
+    margin: auto;
+    position: relative;
+    background-size: 100%;
+    display: none;
+}
+
+
+
